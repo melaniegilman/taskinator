@@ -110,8 +110,6 @@ var createTaskActions = function(taskId) {
     };
   formEl.addEventListener("submit", taskFormHandler); {
   var listItemEl = document.createElement("li");
-  listItemEl.className = "task-item";
-  listItemEl.textContent = "This is a new task";
   tasksToDoEl.appendChild(listItemEl);
   };
 var deleteTask = function(taskId) {
